@@ -15,9 +15,9 @@ jobs:
     steps:
     - uses: kciter/aws-ecr-action@master
       with:
-        access_key_id: AWS
-        secret_access_key: public.ecr.aws/w5m2g2b3
-        account_id:  392588279491
+        access_key_id: AKIAJ6DOVPZ7ZQCK2FZA
+        secret_access_key: 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
+        account_id: 392588279491
         repo: actions_demo
         region: us-east-1
         tags: latest,${{ github.sha }}
