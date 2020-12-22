@@ -21,6 +21,6 @@ jobs:
           account_id: 392588279491
           repo: actions_demo
           dockerfile: Dockerfile
-          region: us-east-1
+          region: eu-west-1
           tags: latest,${{ github.sha }}
           create_repo: true
